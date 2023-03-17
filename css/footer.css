@@ -1,0 +1,135 @@
+.contenedor-footer-informacion{
+    height: 300px;
+    background: #FFFFFF;
+}
+
+.footer-informacion {
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.casilla-informacion {
+    width: 400px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion-imagen {
+    margin-bottom: 25px;
+}
+
+.informacion-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion-texto-titulo {
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4B4B4B;
+}
+
+.informacion-texto-parrafo {
+    margin-bottom: 9px;
+    padding-left: 48px;
+    padding-right: 48px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+}
+
+.informacion-texto-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3483FA;
+}
+
+.casilla-separacion {
+    margin-top: 100px;
+    width: 1px;
+    height: 65px;
+    background-color: #e2e2e2;
+    content: "";
+}
+
+.contenedor-footer{
+    height: 156px;
+    background: #FFFFFF;
+    border-top: 1px solid #E6E6E6;
+}
+
+.footer-info {
+    width: 1180px;
+    height: 54px;
+    margin-left: 166px;
+    margin-top: 17px;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-li {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: start;
+    margin-bottom: 8px;
+    margin-right: 16px;
+    color: #333333;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 10px;
+}
+
+.footer-copyright-texto {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    color: #999999;
+}
+
+.footer-logos {
+    padding-top: 19px;
+    border-top: 1px solid #EDEDED;
+    margin-left: 166px;
+    margin-top: 17px;
+}
+
+.footer-logos-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
