@@ -332,9 +332,7 @@ body{
     font-weight: 400;
     font-size: 15px;
     line-height: 16px;
-    display: flex;
     align-items: center;
-    flex: none;
     order: 1;
     flex-grow: 0;
     color: #000000;
